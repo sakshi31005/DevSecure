@@ -37,8 +37,7 @@
  * ---------------------------------------------------------
  */
 
-const BASE = "http://localhost:5000/api";
-
+const BASE = `${import.meta.env.VITE_API_URL}/api`;
 // ---------- Token storage ----------
 
 export function setToken(token) {
